@@ -1,0 +1,26 @@
+[
+  {
+    "id": "logic-review-actions-documentversionservice-md-exists",
+    "category": "structural",
+    "target": "Logic/Review_Actions/DocumentVersionService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-review-actions-usedocumentversions-md-exists",
+    "category": "structural",
+    "target": "Logic/Review_Actions/useDocumentVersions.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-has-api-payload-block",
+    "category": "behavioural",
+    "target": "Logic/Review_Actions/DocumentVersionService.md",
+    "check": "source_contains_string",
+    "args": {
+      "needle": "<!-- API_PAYLOAD"
+    },
+    "rationale": "Logic-tier pseudocode must carry an API_PAYLOAD block (plan 23 phase 3)."
+  }
+]

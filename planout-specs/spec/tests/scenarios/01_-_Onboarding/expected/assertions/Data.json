@@ -1,0 +1,36 @@
+[
+  {
+    "id": "data-01-onboarding-usercontroller-md-exists",
+    "category": "structural",
+    "target": "Data/01_-_Onboarding/UserController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-01-onboarding-taskservice-md-exists",
+    "category": "structural",
+    "target": "Data/01_-_Onboarding/TaskService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-user",
+    "category": "structural",
+    "target": "Data/01_-_Onboarding/UserController.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "USER"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"USER\" entity."
+  },
+  {
+    "id": "schema-declares-task_summary",
+    "category": "structural",
+    "target": "Data/01_-_Onboarding/UserController.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "TASK_SUMMARY"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"TASK_SUMMARY\" entity."
+  }
+]

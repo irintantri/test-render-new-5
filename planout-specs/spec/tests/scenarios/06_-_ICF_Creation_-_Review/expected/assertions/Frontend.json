@@ -1,0 +1,30 @@
+[
+  {
+    "id": "frontend-06-icf-creation-review-reviewpage-md-exists",
+    "category": "structural",
+    "target": "Frontend/06_-_ICF_Creation_-_Review/ReviewPage.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-06-icf-creation-review-documentsectioncard-md-exists",
+    "category": "structural",
+    "target": "Frontend/06_-_ICF_Creation_-_Review/DocumentSectionCard.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-06-icf-creation-review-audittrail-md-exists",
+    "category": "structural",
+    "target": "Frontend/06_-_ICF_Creation_-_Review/AuditTrail.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-06-icf-creation-review-commentactions-md-exists",
+    "category": "structural",
+    "target": "Frontend/06_-_ICF_Creation_-_Review/CommentActions.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  }
+]

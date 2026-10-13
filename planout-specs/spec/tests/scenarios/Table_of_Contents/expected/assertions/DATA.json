@@ -1,0 +1,36 @@
+[
+  {
+    "id": "data-table-of-contents-documentrepository-md-exists",
+    "category": "structural",
+    "target": "DATA/Table_of_Contents/DocumentRepository.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"DATA\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-table-of-contents-sectioncontroller-md-exists",
+    "category": "structural",
+    "target": "DATA/Table_of_Contents/SectionController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"DATA\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-document",
+    "category": "structural",
+    "target": "DATA/Table_of_Contents/DocumentRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Document"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Document\" entity."
+  },
+  {
+    "id": "schema-declares-section",
+    "category": "structural",
+    "target": "DATA/Table_of_Contents/DocumentRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Section"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Section\" entity."
+  }
+]

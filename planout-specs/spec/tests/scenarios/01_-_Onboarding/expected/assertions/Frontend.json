@@ -1,0 +1,37 @@
+[
+  {
+    "id": "frontend-01-onboarding-authloadingscreen-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/AuthLoadingScreen.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-01-onboarding-dashboardheader-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/DashboardHeader.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-01-onboarding-dashboardpage-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/DashboardPage.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-01-onboarding-userhooks-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/UserHooks.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-01-onboarding-rolebadge-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/RoleBadge.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  }
+]

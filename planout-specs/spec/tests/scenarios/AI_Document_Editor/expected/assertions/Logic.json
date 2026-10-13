@@ -1,0 +1,26 @@
+[
+  {
+    "id": "logic-ai-document-editor-aieditorservice-md-exists",
+    "category": "structural",
+    "target": "Logic/AI_Document_Editor/AIEditorService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-ai-document-editor-aieditorcontroller-md-exists",
+    "category": "structural",
+    "target": "Logic/AI_Document_Editor/AIEditorController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-has-api-payload-block",
+    "category": "behavioural",
+    "target": "Logic/AI_Document_Editor/AIEditorService.md",
+    "check": "source_contains_string",
+    "args": {
+      "needle": "<!-- API_PAYLOAD"
+    },
+    "rationale": "Logic-tier pseudocode must carry an API_PAYLOAD block (plan 23 phase 3)."
+  }
+]

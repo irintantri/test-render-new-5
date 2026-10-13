@@ -1,0 +1,36 @@
+[
+  {
+    "id": "data-02-icf-dashboard-protocolrepository-md-exists",
+    "category": "structural",
+    "target": "Data/02_-_ICF_Dashboard/ProtocolRepository.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-02-icf-dashboard-protocolcontroller-md-exists",
+    "category": "structural",
+    "target": "Data/02_-_ICF_Dashboard/ProtocolController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-protocol",
+    "category": "structural",
+    "target": "Data/02_-_ICF_Dashboard/ProtocolRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Protocol"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Protocol\" entity."
+  },
+  {
+    "id": "schema-declares-icffile",
+    "category": "structural",
+    "target": "Data/02_-_ICF_Dashboard/ProtocolRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "ICFFile"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"ICFFile\" entity."
+  }
+]

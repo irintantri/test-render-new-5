@@ -1,0 +1,36 @@
+[
+  {
+    "id": "data-06-icf-creation-review-documentrepository-md-exists",
+    "category": "structural",
+    "target": "Data/06_-_ICF_Creation_-_Review/DocumentRepository.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-06-icf-creation-review-documentdto-md-exists",
+    "category": "structural",
+    "target": "Data/06_-_ICF_Creation_-_Review/DocumentDTO.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-document",
+    "category": "structural",
+    "target": "Data/06_-_ICF_Creation_-_Review/DocumentRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "DOCUMENT"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"DOCUMENT\" entity."
+  },
+  {
+    "id": "schema-declares-audit_log",
+    "category": "structural",
+    "target": "Data/06_-_ICF_Creation_-_Review/DocumentRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "AUDIT_LOG"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"AUDIT_LOG\" entity."
+  }
+]

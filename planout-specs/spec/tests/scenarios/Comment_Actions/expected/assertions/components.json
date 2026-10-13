@@ -1,0 +1,30 @@
+[
+  {
+    "id": "components-comment-actions-commentpanel-md-exists",
+    "category": "structural",
+    "target": "components/Comment_Actions/CommentPanel.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-comment-actions-approvalgate-md-exists",
+    "category": "structural",
+    "target": "components/Comment_Actions/ApprovalGate.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-comment-actions-commentservice-md-exists",
+    "category": "structural",
+    "target": "components/Comment_Actions/CommentService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-comment-actions-commentcomposer-md-exists",
+    "category": "structural",
+    "target": "components/Comment_Actions/CommentComposer.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "data-03-icf-creation-setup-protocolrepository-md-exists",
+    "category": "structural",
+    "target": "Data/03_-_ICF_Creation_-_Setup/ProtocolRepository.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-03-icf-creation-setup-referencedocumentrepository-md-exists",
+    "category": "structural",
+    "target": "Data/03_-_ICF_Creation_-_Setup/ReferenceDocumentRepository.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-03-icf-creation-setup-templaterepository-md-exists",
+    "category": "structural",
+    "target": "Data/03_-_ICF_Creation_-_Setup/TemplateRepository.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-03-icf-creation-setup-datamodels-md-exists",
+    "category": "structural",
+    "target": "Data/03_-_ICF_Creation_-_Setup/DataModels.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-protocol",
+    "category": "structural",
+    "target": "Data/03_-_ICF_Creation_-_Setup/ProtocolRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Protocol"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Protocol\" entity."
+  },
+  {
+    "id": "schema-declares-referencedocument",
+    "category": "structural",
+    "target": "Data/03_-_ICF_Creation_-_Setup/ProtocolRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "ReferenceDocument"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"ReferenceDocument\" entity."
+  },
+  {
+    "id": "schema-declares-template",
+    "category": "structural",
+    "target": "Data/03_-_ICF_Creation_-_Setup/ProtocolRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Template"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Template\" entity."
+  }
+]

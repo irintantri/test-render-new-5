@@ -1,0 +1,8 @@
+Canvas: 908×47px
+
+├─ text-path [0,0 908×47]  fill=white
+├─ text-path [0,-1 908×2]  fill=black
+├─ icon [28,20 4×7]  stroke=#717182
+├─ text-path [46,19 80×12]  fill=#717182
+├─ icon [862,20 21×10]  fill=#717182
+└─ icon [862,30 22×1]  fill=#717182

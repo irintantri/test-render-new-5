@@ -1,0 +1,23 @@
+[
+  {
+    "id": "components-progress-stepper-usesteppernavigation-md-exists",
+    "category": "structural",
+    "target": "Components/Progress_Stepper/useStepperNavigation.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-progress-stepper-progressstepper-md-exists",
+    "category": "structural",
+    "target": "Components/Progress_Stepper/ProgressStepper.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-progress-stepper-stepperstyles-md-exists",
+    "category": "structural",
+    "target": "Components/Progress_Stepper/StepperStyles.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Components\" emitted this pseudocode file."
+  }
+]

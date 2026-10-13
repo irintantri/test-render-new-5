@@ -1,0 +1,11 @@
+Canvas: 1662×36px
+
+├─ text-path [0,0 1662×36]  fill=white
+├─ text-path [0,35 1662×2]  fill=black
+├─ text-group [15,13 126×9]
+│  └─ text-path [15,13 126×9]  fill=#0A0A0A
+├─ text-path [1450,5 117×25]  fill=white
+├─ text-path [1449,4 119×27]  fill=black
+├─ text-path [1462,14 92×10]  fill=#0A0A0A
+├─ text-path [1571,7 78×22]  fill=black
+└─ text-path [1580,14 59×8]  fill=#0A0A0A

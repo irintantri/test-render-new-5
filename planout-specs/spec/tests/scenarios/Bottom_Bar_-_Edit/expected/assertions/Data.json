@@ -1,0 +1,26 @@
+[
+  {
+    "id": "data-bottom-bar-edit-documentrepository-md-exists",
+    "category": "structural",
+    "target": "Data/Bottom_Bar_-_Edit/DocumentRepository.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-bottom-bar-edit-documentservice-md-exists",
+    "category": "structural",
+    "target": "Data/Bottom_Bar_-_Edit/DocumentService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-document",
+    "category": "structural",
+    "target": "Data/Bottom_Bar_-_Edit/DocumentRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Document"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Document\" entity."
+  }
+]

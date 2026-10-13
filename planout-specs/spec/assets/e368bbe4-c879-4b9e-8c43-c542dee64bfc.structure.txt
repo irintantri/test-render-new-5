@@ -1,0 +1,21 @@
+Canvas: 1128×40px
+
+├─ text-path [0,0 1128×40]  fill=white
+├─ text-path [0,39 1128×2]  fill=black
+├─ icon [32,16 4×7]  stroke=#717182
+├─ text-path [48,16 54×8]  fill=#717182
+├─ icon [122,9 21×21]  fill=#4F39F6
+├─ group [129,14 8×10]
+│  ├─ icon [129,14 8×10]  stroke=white
+│  ├─ icon [134,14 3×3]  stroke=white
+│  ├─ icon [131,18 1×0]  stroke=white
+│  ├─ icon [131,20 4×0]  stroke=white
+│  └─ icon [131,22 4×0]  stroke=white
+├─ text-path [151,14 101×9]  fill=#0A0A0A
+├─ rect [0,0 1×25]  fill=black
+├─ text-path [274,9 107×22]  fill=black
+├─ text-path [283,15 87×7]  fill=#0A0A0A
+├─ rect [0,0 1×25]  fill=black
+├─ text-path [402,16 108×8]  fill=#717182
+├─ shape [521,9 39×22]  fill=black
+└─ icon [531,16 19×8]  fill=#0A0A0A

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "data-05-icf-creation-edit-and-refine-documentrepository-md-exists",
+    "category": "structural",
+    "target": "Data/05_-_ICF_Creation_-_Edit_and_Refine/DocumentRepository.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-05-icf-creation-edit-and-refine-documentservice-md-exists",
+    "category": "structural",
+    "target": "Data/05_-_ICF_Creation_-_Edit_and_Refine/DocumentService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-05-icf-creation-edit-and-refine-documentcontroller-md-exists",
+    "category": "structural",
+    "target": "Data/05_-_ICF_Creation_-_Edit_and_Refine/DocumentController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-document",
+    "category": "structural",
+    "target": "Data/05_-_ICF_Creation_-_Edit_and_Refine/DocumentRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Document"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Document\" entity."
+  }
+]

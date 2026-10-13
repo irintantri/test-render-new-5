@@ -1,0 +1,30 @@
+[
+  {
+    "id": "frontend-02-icf-dashboard-icfdashboard-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/ICFDashboard.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-protocoltable-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/ProtocolTable.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-searchbar-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/SearchBar.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-header-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/Header.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  }
+]

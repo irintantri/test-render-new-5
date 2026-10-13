@@ -1,0 +1,36 @@
+[
+  {
+    "id": "data-edit-actions-documentactionsservice-md-exists",
+    "category": "structural",
+    "target": "data/Edit_Actions/DocumentActionsService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-edit-actions-usedocumentactions-md-exists",
+    "category": "structural",
+    "target": "data/Edit_Actions/useDocumentActions.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-document",
+    "category": "structural",
+    "target": "data/Edit_Actions/DocumentActionsService.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Document"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Document\" entity."
+  },
+  {
+    "id": "schema-declares-section",
+    "category": "structural",
+    "target": "data/Edit_Actions/DocumentActionsService.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Section"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Section\" entity."
+  }
+]

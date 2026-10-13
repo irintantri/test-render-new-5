@@ -1,0 +1,14 @@
+Canvas: 1181×52px
+
+└─ text-group [0,1 1181×51]
+   ├─ text-path [0,2 1181×50]  fill=white
+   ├─ text-path [0,1 1181×2]  fill=black
+   ├─ text [20,32 0×0] "← Back to Dashboard"  fill=#4F39F6 14px 500
+   └─ text-group [1045,12 122×32]
+      ├─ text-path [1045,12 122×32]  fill=#4F39F6
+      ├─ icon [1057,22 12×12]  stroke=white
+      ├─ icon [1067,22 0×2]  stroke=white
+      ├─ icon [1066,23 2×0]  stroke=white
+      ├─ icon [1058,30 0×1]  stroke=white
+      ├─ icon [1057,31 1×0]  stroke=white
+      └─ text-path [1080,22 75×9]  fill=white

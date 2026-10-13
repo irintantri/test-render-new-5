@@ -1,0 +1,16 @@
+[
+  {
+    "id": "components-bottom-bar-edit-bottomactionbar-md-exists",
+    "category": "structural",
+    "target": "components/Bottom_Bar_-_Edit/BottomActionBar.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-bottom-bar-edit-usedocumentactions-md-exists",
+    "category": "structural",
+    "target": "components/Bottom_Bar_-_Edit/useDocumentActions.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  }
+]

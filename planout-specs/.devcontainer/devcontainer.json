@@ -1,0 +1,9 @@
+{
+  "name": "Kolosal artifact bundle",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}

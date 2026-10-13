@@ -1,0 +1,16 @@
+[
+  {
+    "id": "components-bottom-bar-generate-bottombargenerate-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Bottom_Bar_-_Generate/BottomBarGenerate.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-bottom-bar-generate-usenavigationlogic-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Bottom_Bar_-_Generate/useNavigationLogic.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "logic-edit-actions-documentservice-md-exists",
+    "category": "structural",
+    "target": "logic/Edit_Actions/DocumentService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-has-api-payload-block",
+    "category": "behavioural",
+    "target": "logic/Edit_Actions/DocumentService.md",
+    "check": "source_contains_string",
+    "args": {
+      "needle": "<!-- API_PAYLOAD"
+    },
+    "rationale": "Logic-tier pseudocode must carry an API_PAYLOAD block (plan 23 phase 3)."
+  }
+]

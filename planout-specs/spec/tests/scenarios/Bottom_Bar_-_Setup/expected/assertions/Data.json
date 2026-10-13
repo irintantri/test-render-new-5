@@ -1,0 +1,26 @@
+[
+  {
+    "id": "data-bottom-bar-setup-generationservice-md-exists",
+    "category": "structural",
+    "target": "Data/Bottom_Bar_-_Setup/GenerationService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-bottom-bar-setup-generationcontroller-md-exists",
+    "category": "structural",
+    "target": "Data/Bottom_Bar_-_Setup/GenerationController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-generationjob",
+    "category": "structural",
+    "target": "Data/Bottom_Bar_-_Setup/GenerationService.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "GenerationJob"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"GenerationJob\" entity."
+  }
+]

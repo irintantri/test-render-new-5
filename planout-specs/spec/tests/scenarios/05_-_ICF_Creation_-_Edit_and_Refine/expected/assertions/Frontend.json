@@ -1,0 +1,30 @@
+[
+  {
+    "id": "frontend-05-icf-creation-edit-and-refine-documenteditor-md-exists",
+    "category": "structural",
+    "target": "Frontend/05_-_ICF_Creation_-_Edit_and_Refine/DocumentEditor.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-05-icf-creation-edit-and-refine-documentsectioncard-md-exists",
+    "category": "structural",
+    "target": "Frontend/05_-_ICF_Creation_-_Edit_and_Refine/DocumentSectionCard.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-05-icf-creation-edit-and-refine-sectioneditor-md-exists",
+    "category": "structural",
+    "target": "Frontend/05_-_ICF_Creation_-_Edit_and_Refine/SectionEditor.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-05-icf-creation-edit-and-refine-hooks-usedocumentdata-md-exists",
+    "category": "structural",
+    "target": "Frontend/05_-_ICF_Creation_-_Edit_and_Refine/hooks_useDocumentData.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  }
+]

@@ -1,0 +1,10 @@
+Canvas: 694×52px
+
+└─ text-group [0,1 694×51]
+   ├─ text-path [0,2 694×50]  fill=white
+   ├─ text-path [0,1 694×2]  fill=black
+   ├─ icon [28,22 4×7]  stroke=#717182
+   ├─ text-path [46,21 80×12]  fill=#717182
+   ├─ text-path [532,12 148×32]  fill=#4F39F6
+   ├─ text-path [543,22 105×9]  fill=white
+   └─ icon [661,24 4×7]  stroke=white

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "components-bottom-bar-review-reviewbottombar-md-exists",
+    "category": "structural",
+    "target": "Components/Bottom_Bar_-_Review/ReviewBottomBar.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-bottom-bar-review-usedocumentsubmission-md-exists",
+    "category": "structural",
+    "target": "Components/Bottom_Bar_-_Review/useDocumentSubmission.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-bottom-bar-review-api-definition-md-exists",
+    "category": "structural",
+    "target": "Components/Bottom_Bar_-_Review/API_Definition.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Components\" emitted this pseudocode file."
+  }
+]

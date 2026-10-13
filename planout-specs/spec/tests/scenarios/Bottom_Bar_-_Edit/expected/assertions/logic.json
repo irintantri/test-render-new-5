@@ -1,0 +1,26 @@
+[
+  {
+    "id": "logic-bottom-bar-edit-documentsubmissioncontroller-md-exists",
+    "category": "structural",
+    "target": "logic/Bottom_Bar_-_Edit/DocumentSubmissionController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-bottom-bar-edit-documentservice-md-exists",
+    "category": "structural",
+    "target": "logic/Bottom_Bar_-_Edit/DocumentService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-has-api-payload-block",
+    "category": "behavioural",
+    "target": "logic/Bottom_Bar_-_Edit/DocumentSubmissionController.md",
+    "check": "source_contains_string",
+    "args": {
+      "needle": "<!-- API_PAYLOAD"
+    },
+    "rationale": "Logic-tier pseudocode must carry an API_PAYLOAD block (plan 23 phase 3)."
+  }
+]

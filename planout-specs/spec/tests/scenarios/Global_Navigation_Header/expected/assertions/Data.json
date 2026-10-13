@@ -1,0 +1,26 @@
+[
+  {
+    "id": "data-global-navigation-header-usercontextservice-md-exists",
+    "category": "structural",
+    "target": "Data/Global_Navigation_Header/UserContextService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-global-navigation-header-usercontroller-md-exists",
+    "category": "structural",
+    "target": "Data/Global_Navigation_Header/UserController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-user",
+    "category": "structural",
+    "target": "Data/Global_Navigation_Header/UserContextService.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "User"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"User\" entity."
+  }
+]

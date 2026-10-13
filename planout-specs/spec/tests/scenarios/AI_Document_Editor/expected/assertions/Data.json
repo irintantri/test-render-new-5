@@ -1,0 +1,36 @@
+[
+  {
+    "id": "data-ai-document-editor-aisectionrepository-md-exists",
+    "category": "structural",
+    "target": "Data/AI_Document_Editor/AISectionRepository.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-ai-document-editor-aisectioncontroller-md-exists",
+    "category": "structural",
+    "target": "Data/AI_Document_Editor/AISectionController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-document",
+    "category": "structural",
+    "target": "Data/AI_Document_Editor/AISectionRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Document"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Document\" entity."
+  },
+  {
+    "id": "schema-declares-aieditedsection",
+    "category": "structural",
+    "target": "Data/AI_Document_Editor/AISectionRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "AIEditedSection"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"AIEditedSection\" entity."
+  }
+]

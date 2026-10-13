@@ -1,0 +1,23 @@
+[
+  {
+    "id": "components-wrapper-shell-usewrapperdata-md-exists",
+    "category": "structural",
+    "target": "components/Wrapper_Shell/useWrapperData.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-wrapper-shell-wrappershell-md-exists",
+    "category": "structural",
+    "target": "components/Wrapper_Shell/WrapperShell.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-wrapper-shell-wrappershell-types-md-exists",
+    "category": "structural",
+    "target": "components/Wrapper_Shell/WrapperShell.types.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  }
+]

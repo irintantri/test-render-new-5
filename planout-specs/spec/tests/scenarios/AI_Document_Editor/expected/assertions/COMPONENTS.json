@@ -1,0 +1,23 @@
+[
+  {
+    "id": "components-ai-document-editor-aidocumenteditor-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/AI_Document_Editor/AIDocumentEditor.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-ai-document-editor-aiservice-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/AI_Document_Editor/AIService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-ai-document-editor-documentservice-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/AI_Document_Editor/DocumentService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  }
+]

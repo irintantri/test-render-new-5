@@ -1,0 +1,33 @@
+[
+  {
+    "id": "logic-03-icf-creation-setup-protocolservice-md-exists",
+    "category": "structural",
+    "target": "Logic/03_-_ICF_Creation_-_Setup/ProtocolService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-03-icf-creation-setup-templateservice-md-exists",
+    "category": "structural",
+    "target": "Logic/03_-_ICF_Creation_-_Setup/TemplateService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-03-icf-creation-setup-referencedocumentservice-md-exists",
+    "category": "structural",
+    "target": "Logic/03_-_ICF_Creation_-_Setup/ReferenceDocumentService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-has-api-payload-block",
+    "category": "behavioural",
+    "target": "Logic/03_-_ICF_Creation_-_Setup/ProtocolService.md",
+    "check": "source_contains_string",
+    "args": {
+      "needle": "<!-- API_PAYLOAD"
+    },
+    "rationale": "Logic-tier pseudocode must carry an API_PAYLOAD block (plan 23 phase 3)."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "components-edit-actions-editactionbar-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Edit_Actions/EditActionBar.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-edit-actions-usesectionactions-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Edit_Actions/useSectionActions.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-edit-actions-deleteconfirmationmodal-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Edit_Actions/DeleteConfirmationModal.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-edit-actions-previewmodal-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Edit_Actions/PreviewModal.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  }
+]

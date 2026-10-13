@@ -1,0 +1,36 @@
+[
+  {
+    "id": "data-ai-openrouter-sdk-documentrepository-md-exists",
+    "category": "structural",
+    "target": "DATA/AI_Openrouter_SDK/DocumentRepository.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"DATA\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-ai-openrouter-sdk-openrouterservice-md-exists",
+    "category": "structural",
+    "target": "DATA/AI_Openrouter_SDK/OpenRouterService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"DATA\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-documentgeneration",
+    "category": "structural",
+    "target": "DATA/AI_Openrouter_SDK/DocumentRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "DocumentGeneration"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"DocumentGeneration\" entity."
+  },
+  {
+    "id": "schema-declares-documentsection",
+    "category": "structural",
+    "target": "DATA/AI_Openrouter_SDK/DocumentRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "DocumentSection"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"DocumentSection\" entity."
+  }
+]

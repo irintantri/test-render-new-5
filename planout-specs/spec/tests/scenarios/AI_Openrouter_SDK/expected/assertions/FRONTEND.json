@@ -1,0 +1,16 @@
+[
+  {
+    "id": "frontend-ai-openrouter-sdk-documentgenerationform-md-exists",
+    "category": "structural",
+    "target": "FRONTEND/AI_Openrouter_SDK/DocumentGenerationForm.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"FRONTEND\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-ai-openrouter-sdk-documentparser-md-exists",
+    "category": "structural",
+    "target": "FRONTEND/AI_Openrouter_SDK/DocumentParser.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"FRONTEND\" emitted this pseudocode file."
+  }
+]

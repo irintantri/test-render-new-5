@@ -1,0 +1,23 @@
+[
+  {
+    "id": "frontend-04-icf-creation-generate-generationview-md-exists",
+    "category": "structural",
+    "target": "Frontend/04_-_ICF_Creation_-_Generate/GenerationView.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-04-icf-creation-generate-generationvisualization-md-exists",
+    "category": "structural",
+    "target": "Frontend/04_-_ICF_Creation_-_Generate/GenerationVisualization.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-04-icf-creation-generate-progressstepper-md-exists",
+    "category": "structural",
+    "target": "Frontend/04_-_ICF_Creation_-_Generate/ProgressStepper.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "frontend-03-icf-creation-setup-setuppage-md-exists",
+    "category": "structural",
+    "target": "Frontend/03_-_ICF_Creation_-_Setup/SetupPage.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-03-icf-creation-setup-api-md-exists",
+    "category": "structural",
+    "target": "Frontend/03_-_ICF_Creation_-_Setup/api.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  }
+]

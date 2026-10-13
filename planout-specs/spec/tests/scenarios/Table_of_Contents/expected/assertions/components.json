@@ -1,0 +1,23 @@
+[
+  {
+    "id": "components-table-of-contents-usetableofcontents-md-exists",
+    "category": "structural",
+    "target": "components/Table_of_Contents/useTableOfContents.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-table-of-contents-tableofcontents-md-exists",
+    "category": "structural",
+    "target": "components/Table_of_Contents/TableOfContents.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-table-of-contents-documentview-md-exists",
+    "category": "structural",
+    "target": "components/Table_of_Contents/DocumentView.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  }
+]

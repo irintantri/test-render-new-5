@@ -1,0 +1,33 @@
+[
+  {
+    "id": "logic-comment-actions-commentservice-md-exists",
+    "category": "structural",
+    "target": "Logic/Comment_Actions/CommentService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-comment-actions-reviewerservice-md-exists",
+    "category": "structural",
+    "target": "Logic/Comment_Actions/ReviewerService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-comment-actions-approvallogic-md-exists",
+    "category": "structural",
+    "target": "Logic/Comment_Actions/ApprovalLogic.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-has-api-payload-block",
+    "category": "behavioural",
+    "target": "Logic/Comment_Actions/CommentService.md",
+    "check": "source_contains_string",
+    "args": {
+      "needle": "<!-- API_PAYLOAD"
+    },
+    "rationale": "Logic-tier pseudocode must carry an API_PAYLOAD block (plan 23 phase 3)."
+  }
+]

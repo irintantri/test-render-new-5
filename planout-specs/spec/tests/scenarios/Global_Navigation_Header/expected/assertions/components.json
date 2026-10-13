@@ -1,0 +1,23 @@
+[
+  {
+    "id": "components-global-navigation-header-useusercontext-md-exists",
+    "category": "structural",
+    "target": "components/Global_Navigation_Header/useUserContext.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-global-navigation-header-globalnavigationheader-md-exists",
+    "category": "structural",
+    "target": "components/Global_Navigation_Header/GlobalNavigationHeader.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-global-navigation-header-apiservice-md-exists",
+    "category": "structural",
+    "target": "components/Global_Navigation_Header/apiService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "frontend-07-icf-creation-preview-icfpreviewpage-md-exists",
+    "category": "structural",
+    "target": "Frontend/07_-_ICF_Creation_-_Preview/ICFPreviewPage.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-07-icf-creation-preview-api-md-exists",
+    "category": "structural",
+    "target": "Frontend/07_-_ICF_Creation_-_Preview/api.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  }
+]

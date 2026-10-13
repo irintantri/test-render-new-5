@@ -1,0 +1,73 @@
+Canvas: 1033×714px
+
+├─ rect [0,0 1033×714]  fill=blue
+└─ text-group [0,0 1033×714]
+   ├─ rect [0,0 1033×714]  fill=white
+   ├─ image-group [0,0 517×714]
+   │  ├─ image-placeholder [0,0 517×714]  fill=gradient(image)
+   │  ├─ group [35,35 447×609]
+   │  │  ├─ shape [35,35 112×112]  fill=white
+   │  │  ├─ shape [314,476 168×168]  fill=white
+   │  │  └─ group [146,245 224×224]
+   │  │     └─ shape [146,245 224×224]  fill=white
+   │  ├─ shape [178,162 160×200]  fill=white
+   │  ├─ shape [186,170 144×184]  fill=white
+   │  ├─ text-path [202,190 112×4]  fill=white
+   │  ├─ text-path [202,202 88×4]  fill=white
+   │  ├─ text-path [202,222 112×3]  fill=white
+   │  ├─ text-path [202,232 100×3]  fill=white
+   │  ├─ text-path [202,242 108×3]  fill=white
+   │  ├─ text-path [202,262 112×3]  fill=white
+   │  ├─ text-path [202,272 76×3]  fill=white
+   │  ├─ text-path [202,282 96×3]  fill=white
+   │  ├─ text-path [202,310 80×2]  fill=white
+   │  ├─ text-path [202,318 60×2]  fill=white
+   │  ├─ shape [304,178 52×52]  fill=white
+   │  ├─ shape [310,184 40×40]  fill=white
+   │  ├─ icon [326,192 8×24]  fill=white
+   │  ├─ icon [318,200 24×8]  fill=white
+   │  ├─ shape [176,304 36×36]  fill=#10B981
+   │  ├─ icon [186,316 16×12]  stroke=white
+   │  ├─ icon [284,309 16×16]  fill=white
+   │  ├─ icon [280,324 24×12]  stroke=white
+   │  ├─ icon [310,304 16×16]  fill=white
+   │  ├─ icon [306,319 24×12]  stroke=white
+   │  ├─ text-path [204,427 109×17]  fill=white
+   │  ├─ text-path [126,464 264×52]  fill=#FFFFFF
+   │  ├─ text-path [157,546 53×16]  fill=white
+   │  ├─ text-path [161,571 46×8]  fill=#FFFFFF
+   │  ├─ rect [0,0 1×28]  fill=#FFFFFF
+   │  ├─ shape [249,546 42×16]  fill=white
+   │  ├─ text-path [241,571 58×10]  fill=#A3B3FF
+   │  ├─ rect [0,0 1×28]  fill=#7C86FF
+   │  ├─ icon [332,546 24×16]  fill=white
+   │  └─ icon [329,571 31×8]  fill=#A3B3FF
+   ├─ rect [0,0 517×714]  fill=#FFFFFF
+   ├─ group [740,191 70×70]
+   │  ├─ shape [740,191 70×70]  fill=#FFFFFF
+   │  └─ icon [761,218 29×15]  fill=white
+   ├─ text-path [675,280 203×20]  fill=#101828
+   ├─ text-path [659,313 97×23]  fill=#DBEAFE
+   ├─ text-path [658,312 99×25]  fill=#BFDBFE
+   ├─ icon [676,328 4×0]  stroke=#FFFFFF
+   ├─ icon [672,321 7×7]  stroke=#432DD7
+   ├─ text-path [690,321 54×8]  fill=#1D4ED8
+   ├─ icon [764,325 2×2]  fill=#D1D5DC
+   ├─ text-path [774,313 116×23]  fill=#DBEAFE
+   ├─ text-path [773,312 118×25]  fill=#BFDBFE
+   ├─ group [788,320 7×9]
+   │  ├─ icon [788,320 7×9]  stroke=#00786F
+   │  ├─ icon [792,320 3×3]  stroke=#00786F
+   │  ├─ icon [789,323 1×0]  stroke=#00786F
+   │  ├─ icon [789,325 4×0]  stroke=#00786F
+   │  └─ icon [789,327 4×0]  stroke=#00786F
+   ├─ text-path [805,321 73×8]  fill=#00786F
+   ├─ text-group [606,363 338×74]
+   │  ├─ shape [607,364 336×72]  fill=white
+   │  ├─ shape [606,363 338×74]  fill=#E5E7EB
+   │  ├─ text-path [639,385 218×35]  fill=#4A5565
+   │  └─ text-path [702,384 208×11]  fill=#101828
+   ├─ text-path [607,457 336×39]  fill=#2563EB
+   ├─ text-path [697,471 133×9]  fill=white
+   ├─ icon [845,473 4×7]  stroke=white
+   └─ text-path [609,513 331×10]  fill=#99A1AF
