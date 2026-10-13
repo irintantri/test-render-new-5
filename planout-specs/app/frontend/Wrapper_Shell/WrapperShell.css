@@ -1,0 +1,62 @@
+.shell {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+}
+.shell__crumbs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  padding: 0 28px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.shell__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  margin-right: 8px;
+}
+.shell__back:hover {
+  color: var(--text);
+}
+.shell__doc-icon {
+  width: 21px;
+  height: 21px;
+  border-radius: 5px;
+  background: var(--primary);
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
+.shell__current {
+  font-size: 13px;
+  font-weight: 500;
+}
+.shell__sep {
+  width: 1px;
+  height: 20px;
+  background: var(--border-strong);
+  margin: 0 4px;
+}
+.shell__icf {
+  font-size: 11px;
+  color: var(--muted);
+}
+.shell__main {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  position: relative;
+}
+.shell__main--page {
+  background: var(--bg-page);
+}
+.shell__main--white {
+  background: #fff;
+}

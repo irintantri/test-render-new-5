@@ -1,0 +1,76 @@
+.stepper-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 0 16px;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.step-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 28px;
+  padding: 0 12px 0 6px;
+  border-radius: 999px;
+  border: 0;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: not-allowed;
+  transition: filter 0.15s;
+}
+.step-item__icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+}
+.step-item__icon svg {
+  width: 11px;
+  height: 11px;
+}
+.step-item.done {
+  background: var(--green-100);
+  color: var(--green-700);
+}
+.step-item.done .step-item__icon {
+  background: var(--green-200);
+}
+.step-item.active {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 0 0 2px var(--primary-200);
+}
+.step-item.active .step-item__icon {
+  background: rgba(255, 255, 255, 0.22);
+}
+.step-item.future {
+  background: var(--bg-page);
+  color: var(--muted-2);
+}
+.step-item.future .step-item__icon {
+  color: var(--muted-2);
+}
+.step-item.clickable {
+  cursor: pointer;
+}
+.step-item.clickable:hover {
+  filter: brightness(0.96);
+}
+.step-item.active:not(.clickable) {
+  cursor: default;
+}
+.step-connector {
+  width: 36px;
+  height: 2px;
+  background: var(--border-strong);
+  margin: 0 4px;
+}
+.step-connector.done {
+  background: var(--green-400);
+}

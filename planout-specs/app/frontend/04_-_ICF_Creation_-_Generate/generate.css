@@ -1,0 +1,151 @@
+.gen-view {
+  width: 392px;
+  max-width: calc(100% - 32px);
+  margin: 0 auto;
+  padding: 76px 0 40px;
+}
+.gen-viz {
+  text-align: center;
+}
+.gen-viz__icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+  color: var(--primary);
+  display: grid;
+  place-items: center;
+  background: #fff;
+  animation: genPulse 2s ease-in-out infinite;
+}
+@keyframes genPulse {
+  50% {
+    box-shadow: 0 0 0 8px rgba(79, 57, 246, 0.08);
+  }
+}
+.gen-viz h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+.gen-viz__sub {
+  margin: 0 0 30px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.gen-viz__sub strong {
+  color: var(--text);
+  font-weight: 500;
+}
+.gen-viz__eta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  margin-bottom: 22px;
+}
+.gen-viz__time {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary);
+}
+.gen-viz__est {
+  font-size: 11px;
+}
+.gen-viz__track {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+.gen-viz__fill {
+  height: 100%;
+  background: var(--primary);
+  border-radius: 999px;
+  transition: width 0.5s ease;
+}
+.gen-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.gen-step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+}
+.gen-step__dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border: 2px solid var(--border-strong);
+  background: #fff;
+}
+.gen-step__label {
+  flex: 1;
+}
+.gen-step__state {
+  font-size: 11px;
+}
+.gen-step--done .gen-step__dot {
+  border-color: transparent;
+  background: var(--green-100);
+  color: var(--green-700);
+}
+.gen-step--done .gen-step__label {
+  color: var(--green-700);
+  text-decoration: line-through;
+}
+.gen-step--done .gen-step__state {
+  color: var(--green-btn);
+}
+.gen-step--active .gen-step__dot {
+  border-color: transparent;
+  background: var(--primary-100);
+  color: var(--primary);
+}
+.gen-step--active .gen-step__label,
+.gen-step--active .gen-step__state {
+  color: var(--primary);
+}
+.gen-step--pending .gen-step__label {
+  color: var(--muted-2);
+}
+.gen-step__spin {
+  animation: spin 1s linear infinite;
+}
+.gen-view__foot {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 11px;
+  color: #4a5565;
+}
+.gen-view__foot--done {
+  color: var(--green-btn);
+  font-weight: 500;
+}
+.gen-view__error {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  background: var(--red-50);
+  color: var(--red-700);
+  font-size: 13px;
+}
+.gen-view__error .btn {
+  margin-left: auto;
+}
